@@ -1,0 +1,151 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(70,140,213,1) 30%, rgba(17,226,209,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    background: white;
+    border-radius: 0.3rem;
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+    padding: 2rem;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+#todo-title {
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+}
+
+#todo-input {
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    margin-right: 0.3rem;
+    width: 21rem;
+    height: 2.7rem;
+    font-size: 1.2rem;
+}
+
+#add-btn {
+    background: #8758ff;
+    color: white;
+    border: none;
+    width: 3rem;
+    height: 2.7rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 2.5rem;
+}
+
+#add-btn:hover {
+    background-color: #7e48db;
+}
+
+#add-btn:active {
+    background-color: #bca8ee;
+}
+
+.todo-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.todo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.todo-item {
+    list-style-type: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.2rem;
+    text-align: left;
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.5rem;
+    height: 2.7rem;
+    width: 21.3rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-btn {
+    background: rgb(253, 71, 71);
+    border: none;
+    border-radius: 0rem 0.3rem 0.3rem 0rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 3rem;
+    height: 2.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.remove-btn:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.remove-btn:active {
+    background-color: rgb(255, 153, 153);
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+    fill: white; 
+}
+
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-status {
+    font-size: 1.2rem;
+}
+
+#clear-btn {
+    background: #8758ff;
+    color: white;
+    border: none;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+#clear-btn:hover {
+    background-color: #7e48db;
+}
+
+#clear-btn:active {
+    background-color: #bca8ee;
+}
