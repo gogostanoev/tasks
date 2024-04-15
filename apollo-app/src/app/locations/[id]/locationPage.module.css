@@ -1,0 +1,56 @@
+.locationsContainer {
+    max-width: 80rem; 
+    margin: 5rem auto; 
+    padding: 2rem; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.locationTitle {
+    font-size: 2.5rem; 
+    color: #333; 
+    margin-bottom: 1rem; 
+}
+
+.locationsText {
+    font-size: 1rem;
+    color: #666; 
+    margin-bottom: 0.625rem; 
+}
+
+.residentTitle {
+    font-size: 1.5rem; 
+    color: #666; 
+    margin-bottom: 1rem; 
+}
+
+.locationsUlContainer {
+    list-style-type: none;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1.5rem; 
+}
+
+.locationsListContainer {
+    padding: 1rem; 
+    background-color: #f0f0f0; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    width: 100%; 
+}
+
+.locationImage {
+    width: 12rem; 
+    height: 12rem; 
+    border: 0.1875rem solid #ddd; 
+}
+
+
+.noResidence {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

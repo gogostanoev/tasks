@@ -1,0 +1,62 @@
+.characterContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5rem; 
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: "GetSchwifty";
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.charactersListContainer {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.characterList {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    list-style-type: none; 
+    padding: 0;
+    justify-content: center; 
+}
+
+.characterCard {
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 18%; 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.characterCard:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.characterName {
+    margin-top: 0.5rem; 
+    font-size: 1rem; 
+    text-align: center;
+    text-decoration: none; 
+}
+
+.characterImage {
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+    text-decoration: none;
+}

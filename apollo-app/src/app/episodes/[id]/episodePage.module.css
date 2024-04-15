@@ -1,0 +1,41 @@
+
+.episodeContainer {
+    max-width: 80rem; 
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.episodeTitle {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.episodeDetails {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.charactersInfo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 1.5rem; 
+}
+
+.characterTitle {
+    margin-bottom: 3rem;
+}
+
+.characterCard {
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+.characterContainer {
+    max-width: 50rem; 
+    margin: 5rem auto;
+    padding: 1.25rem; 
+    border-radius: 0.5rem; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+}
+
+.characterContainer h1 {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-bottom: 1.25rem; 
+    color: #333; 
+}
+
+.characterContainer img {
+    border-radius: 50%;
+    border: 0.1875rem solid #ddd; 
+    margin-bottom: 1.25rem; 
+}
+
+.characterContainer p {
+    font-size: 1.1rem; 
+    color: #555; 
+    margin-bottom: 0.625rem; 
+}
+
+.characterContainer h2 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-top: 1.25rem; 
+    margin-bottom: 0.625rem; 
+    color: #666; 
+}

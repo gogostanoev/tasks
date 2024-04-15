@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "GetSchwifty";
+    src: url("../fonts/get_schwifty.ttf") format('truetype');
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(176, 204, 193);
+    height: 6rem;
+    padding: 0 20px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; 
+    list-style: none;
+    padding: 20px;
+    gap: 10rem;
+    font-family: "GetSchwifty";
+    font-size: 1.5rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited, .link:hover, .link:active {
+    color: white;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border: none;
+}

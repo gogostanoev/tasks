@@ -1,0 +1,55 @@
+
+.episodeContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 5rem; 
+}
+
+.title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: "GetSchwifty";
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.episodeList {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.episodeCard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 160px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.episodeCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.episodeLink {
+    text-decoration: none;
+    color: #333;
+}
+
+.episodeLink h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.episodeLink p {
+    margin: 0.25rem 0;
+}
